@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube to MP3 Converter</title>
+    <title>Nombre</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -45,43 +45,7 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>Convert YouTube to MP3</h1>
-
-        <label for="youtube-url">Paste YouTube Video URL</label>
-        <input type="text" id="youtube-url" placeholder="Enter YouTube video link here">
-
-        <button id="convert-btn">Convert to MP3</button>
-        <button id="download-btn" style="display:none;">Download MP3</button>
-
-        <p id="status-message"></p>
-    </div>
-
-    <script>
-        document.getElementById("convert-btn").addEventListener("click", function() {
-            const url = document.getElementById("youtube-url").value;
-            if (!url) {
-                alert("Please enter a YouTube video URL.");
-                return;
-            }
-
-            document.getElementById("status-message").innerText = "Converting...";
-            
-            // Aquí debes hacer una llamada a tu backend o a un servicio API para convertir el video a MP3.
-            // Una vez que la conversión esté lista, muestra el botón de descarga.
-
-            setTimeout(() => {
-                document.getElementById("status-message").innerText = "Conversion completed!";
-                document.getElementById("download-btn").style.display = "block";
-            }, 2000);  // Simula el tiempo de conversión con un delay de 2 segundos.
-        });
-
-        document.getElementById("download-btn").addEventListener("click", function() {
-            // Aquí debes manejar la descarga del archivo MP3 generado.
-            alert("Starting MP3 download...");
-            // window.location.href = 'your-backend-url-to-download-mp3'; // Esto debería apuntar a tu archivo MP3.
-        });
-    </script>
+   <h2>Princess De la Cruz</h2>
 
 </body>
 </html>
